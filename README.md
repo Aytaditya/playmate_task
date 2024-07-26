@@ -24,7 +24,7 @@ This repository serves as a solution to the recruitment task assigned by Playmat
 
 A demo video of the initial GitHub repository and what it looked like when run is included at the beginning of the demo video linked below:
 
-![Vide](./video.mp4)
+![Video](./video.mp4)
 
 ## Repository Contents
 
