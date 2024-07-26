@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Blockchain Wallet Connection Demonstration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Due to several issues encountered with the initial codebase provided for this task, I created a new GitHub repository to demonstrate a simple wallet connection in blockchain technology. This repository showcases a functional implementation of wallet integration and is intended to address the recruitment task given by Playmate.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![metamask connection](./metamaskWallet.png)
 
-## Expanding the ESLint configuration
+![permission](/permission.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## NOTE
 
-- Configure the top-level `parserOptions` property like this:
+All the styling and programming of this file is done by me and is not similar to initially provided codebase.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Error in initial codebase
+The initial codebase appearance
+![error](./error.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Purpose
+
+This repository serves as a solution to the recruitment task assigned by Playmate. It provides a streamlined example of how to connect a blockchain wallet, addressing the errors found in the original codebase.
+
+## Demo
+
+A demo video of the initial GitHub repository and what it looked like when run is included at the beginning of the demo video linked below:
+
+![Vide](./video.mp4)
+
+## Repository Contents
+
+- **`src/`**: Contains the source code for wallet connection functionality.
+- **`public/`**: Static files, including HTML and CSS.
+- **`README.md`**: This file.
+- **`package.json`**: Project dependencies and scripts.
+
+## Setup
+
+To run this project locally:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Aytaditya/playmate_task.git
+   ```
